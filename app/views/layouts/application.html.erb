@@ -9,6 +9,8 @@
   </head>
   <body class="<%= body_class %>">
     <%= render :partial => 'layouts/flashes' -%>
+    <% tabnav :main do %>
     <%= yield %>
+    <% end -%>
   </body>
 </html>

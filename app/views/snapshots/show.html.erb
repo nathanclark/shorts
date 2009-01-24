@@ -1,0 +1,18 @@
+<p>
+  <b>Checksum:</b>
+  <%=h @snapshot.checksum %>
+</p>
+
+<p>
+  <b>Image:</b>
+ <%= image_tag @snapshot.photo.url(:thumb) %>
+</p>
+
+<p>
+  <b>Site:</b>
+  <%=h @snapshot.site_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_snapshot_path(@snapshot) %> |
+<%= link_to 'Back', snapshots_path %>

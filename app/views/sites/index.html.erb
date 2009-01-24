@@ -1,0 +1,17 @@
+
+<% tableize @sites, 
+  :generate_css => 'true' do |site| %>            
+     <h3> <%= link_to site.name, site %></h3>
+     <p>
+       <%= image_tag site.snapshots.last.photo(:thumb) unless site.snapshots.last.nil?  %><br>
+       URL: <%= link_to site.url, site.url%><br>
+       Intervals: <%= site.intervals %><br>
+       <%= link_to 'Edit', edit_site_path(site) %>
+       <%= link_to 'Destroy', site, :confirm => 'Are you sure?', :method => :delete %>
+     </p>
+<% end %>
+
+
+<br />
+
+<%= link_to 'New site', new_site_path %>

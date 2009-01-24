@@ -1,0 +1,29 @@
+<%= link_to 'Edit', edit_site_path(@site) %> |
+<%= link_to 'Back', sites_path %>
+<p>
+  <b>Name:</b>
+  <%=h @site.name %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%=h @site.url %>
+</p>
+
+<p>
+  <b>Intervals:</b>
+  <%=h @site.intervals %>
+</p>
+
+<%- for snapshot in @site.snapshots %>
+<p>
+<%= link_to image_tag("#{snapshot.photo(:thumb)}"), "#{snapshot.photo}" %><br>
+<%= show_box_for snapshot %><br>
+	<%- detail_box_for snapshot do %> 
+		Checksum: <%= snapshot.checksum %><br>
+		Last Changed Date <%=h snapshot.created_at %><br>
+		<%= hide_box_for snapshot %>
+	<%- end %>
+<%- end %>
+</p>
+

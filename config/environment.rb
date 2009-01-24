@@ -12,9 +12,9 @@ RAILS_GEM_VERSION = '2.1.1' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
-
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.
+  config.active_record.observers = :site_observer
 
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
@@ -44,7 +44,8 @@ Rails::Initializer.run do |config|
              :lib => 'shoulda', 
              :source => 'http://gems.github.com', 
              :version => '>= 2.0.6'
-  
+  require 'twitter'           
+  config.gem 'twitter4r'
   # Only load the plugins named here, in the order given. By default, all plugins 
   # in vendor/plugins are loaded in alphabetical order.
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -85,4 +86,4 @@ Rails::Initializer.run do |config|
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
 end
-
+Paperclip.options[:image_magick_path] = '/opt/local/bin'

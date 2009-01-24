@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  checksum: MyString
+  image: MyString
+  site_id: 1
+
+two:
+  checksum: MyString
+  image: MyString
+  site_id: 1

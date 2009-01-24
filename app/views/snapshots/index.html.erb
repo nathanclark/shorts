@@ -1,0 +1,24 @@
+<h1>Listing snapshots</h1>
+
+<table>
+  <tr>
+    <th>Checksum</th>
+    <th>Image</th>
+    <th>Site</th>
+  </tr>
+
+<% for snapshot in @snapshots %>
+  <tr>
+    <td><%=h snapshot.checksum %></td>
+    <td><%=h snapshot.image %></td>
+    <td><%=h snapshot.site_id %></td>
+    <td><%= link_to 'Show', snapshot %></td>
+    <td><%= link_to 'Edit', edit_snapshot_path(snapshot) %></td>
+    <td><%= link_to 'Destroy', snapshot, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New snapshot', new_snapshot_path %>
