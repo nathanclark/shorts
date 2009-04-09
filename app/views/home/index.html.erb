@@ -1,0 +1,32 @@
+<h1>At a glance</h1>
+<p class="arial"><b>Did you know that you can be receive twitter updates when your monitored
+					sites are change?</b> 
+					Click on the site that you wish to have the twitter integration.</p>
+<br />
+<table cellspacing="0" summary="table" class="broom_table">
+  <tbody>
+    <tr class="title-row">
+      <td class="table-no">Site</td>
+      <td class="table-status">Last Change</td>
+      <td class="table-customer">Site Name</td>
+      <td class="table-date"> Date </td>
+      <td class="table-move"> Move </td>
+      <td class="table-actions"> Actions </td>
+    </tr>
+	<% if !@sites.blank? %>
+	  <% for site in @sites %>
+	    <tr class="<%= cycle("even", "odd") -%>">
+	      <td class="table-no"><%= site.id %></td>
+	      <td class="table-status"><%= site.enabled %></td>
+	      <td class="table-customer"><%= site.name %></td>
+	      <td class="table-date"><%=h site.updated_at.strftime("%B %d, %Y")
+		 %></td>
+	      <td class="table-move"> <img src="css/images/down.png" alt="down" /> <img src="css/images/up.png" alt="up" />  </td>
+	      <td class="table-actions"><img src="css/images/right.png" alt="go" /> <img src="css/images/scissors.png" alt="edit" /> <img src="css/images/incomplete.png" alt="delete" /></td>
+	    </tr>
+	  <% end %>
+	<% else %>
+		Add your first Site!
+	<% end %>
+  </tbody>
+</table>

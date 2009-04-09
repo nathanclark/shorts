@@ -1,0 +1,44 @@
+body{
+background: #5d878d;
+}
+div#header-logo{
+background:url(images/blue/logo-light.png) no-repeat;
+}
+#top-stats{
+color: #eaeaea;
+}
+#top-stats a{
+color: #eaeaea;
+
+}
+#top-stats a:hover{
+color: #70a1a8;
+}
+#top-stats .sub-brown{
+color: #1b545c;
+}
+#side-menu-container li.side-main{
+background: url(images/blue/side-main-item.png) no-repeat;
+}
+#side-menu-container ul li{
+background: url(images/blue/side-sub-item.png) no-repeat;
+}
+#top-tabs{
+margin-top: -17px;
+}
+#top-tabs span a{
+background: url(images/blue/top-tab.png) no-repeat;
+color: #ebebeb;
+}
+#top-tabs span a.active-tab{
+background: url(images/blue/top-tab-active.png) no-repeat;
+color: #25211b;
+}
+#top-tabs span a:hover{
+background: url(images/blue/top-tab-active.png) no-repeat;
+color: #25211b;
+}
+
+
+
+

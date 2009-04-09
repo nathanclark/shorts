@@ -1,0 +1,58 @@
+8
+
+dir
+26248
+http://svn.clickhere.com/projects/craig_ranch/website/trunk/rails/vendor/plugins/annotate_models
+http://svn.clickhere.com
+
+
+
+2008-09-23T17:03:24.067939Z
+17044
+nclark
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ce2d4fac-aa86-45e4-82e3-2928e35751e7
+
+tasks
+dir
+
+lib
+dir
+
+ChangeLog
+file
+
+
+
+
+2008-10-28T22:01:14.000000Z
+d6d7c4ec7466a950da7647f0fba5240c
+2008-09-23T17:03:24.067939Z
+17044
+nclark
+
+README
+file
+
+
+
+
+2008-10-28T22:01:14.000000Z
+1584d33a28eca3bccb7ae644600aaef0
+2008-09-23T17:03:24.067939Z
+17044
+nclark
+

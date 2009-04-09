@@ -1,3 +1,19 @@
+# == Schema Information
+# Schema version: 20090105013409
+#
+# Table name: snapshots
+#
+#  id                 :integer(4)      not null, primary key
+#  checksum           :string(255)     
+#  photo_file_name    :string(255)     
+#  photo_content_type :string(255)     
+#  photo_file_size    :integer(4)      
+#  site_id            :integer(4)      
+#  alert_sent         :boolean(1)      
+#  created_at         :datetime        
+#  updated_at         :datetime        
+#
+
 class Snapshot < ActiveRecord::Base
  belongs_to :site
   

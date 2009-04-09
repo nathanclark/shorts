@@ -1,0 +1,54 @@
+body{
+background: #2f2517;
+text-align: center;
+}
+#header-logo{
+background: url(images/login/login-logo.png) no-repeat;
+width: 451px;
+height: 45px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+position: relative;
+left: -110px;
+margin-bottom: 5px;
+}
+fieldset h1{
+font-family: Trebuchet MS, Arial, Helvetica;
+font-size: 30px;
+color: #282825;
+font-weight: normal;
+}
+#header-logo h1{
+display: none;
+}
+.top-round{
+background: url(images/login/top.png) no-repeat;
+width: 682px;
+height: 6px;
+margin-right: auto;
+margin-left: auto;
+}
+.bottom-round{
+background: url(images/login/bottom.png) no-repeat;
+width: 682px;
+height: 6px;
+margin-right: auto;
+margin-left: auto;
+}
+form.login-module{
+width: 652px;
+padding: 10px 15px 15px 15px;
+margin-right: auto;
+margin-left: auto;
+background: #edeeda;
+text-align: left;
+}
+button.login-button{
+background:  url(images/login/button.png);
+width: 90px;
+height: 40px;
+border: none;
+font-family: Trebuchet MS, Arial, Helvetica;
+font-size: 22px;
+}

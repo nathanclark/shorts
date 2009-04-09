@@ -1,0 +1,43 @@
+body{
+background: #e3f0d7;
+}
+div#header-logo{
+background:url(images/bright/logo-bright.png) no-repeat;
+}
+#top-stats{
+color: #10222b;
+}
+#top-stats a{
+color: #10222b;
+
+}
+#top-stats a:hover{
+color: #70a1a8;
+}
+#top-stats .sub-brown{
+color: #1b545c;
+}
+#side-menu-container li.side-main{
+background: url(images/bright/side-main-item.png) no-repeat;
+}
+#side-menu-container ul li{
+background: url(images/bright/side-sub-item.png) no-repeat;
+}
+#top-tabs{
+margin-top: -17px;
+}
+#top-tabs span a{
+background: url(images/bright/top-tab.png) no-repeat;
+color: #10222b;
+}
+#top-tabs span a.active-tab{
+background: url(images/bright/top-tab-active.png) no-repeat;
+color: #f6ffe0;
+}
+#top-tabs span a:hover{
+background: url(images/bright/top-tab-active.png) no-repeat;
+color: #f6ffe0;
+}
+#content{
+	border: 1px solid #10222b;
+}

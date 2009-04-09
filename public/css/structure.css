@@ -1,0 +1,134 @@
+div#header-logo{
+width: 560px;
+height: 292px;
+display: inline-block;
+position: relative;
+z-index: -1000;
+}
+div#header-logo h1{
+display: none;
+}
+#top-tabs span a{
+display: inline-block;
+width: 115px;
+height: 27px;
+padding: 12px 0px 0px 0px;
+text-align:center;
+font-size: 12px;
+cursor: pointer;
+outline: none;
+}
+div#top-stats{
+text-align: right;
+position: relative;
+top: -292px;
+width: 1000px; 
+display: block;
+}
+div#top-stats p a{
+outline: none;
+}
+div#top-stats p{
+font-size: 13px;
+}
+div#top-stats p.sub-brown{
+font-size: 11px;
+position: relative;
+top: -20px;
+}
+
+#side-menu-container{
+width: 180px;
+position: absolute;
+top: 217px;
+padding-left: 20px;
+overflow: hidden;
+}
+#menu-controller{
+background: url(images/menu-controller.png);
+width: 182px;
+height: 32px;
+}
+#menu-controller img{
+padding-top: 6px;
+cursor: pointer;
+}
+#collapse-side-menu{
+margin-left: 5px;
+}
+#side-menu-container ul li.side-main{
+width: 195px;
+margin: 25px 10px 30px 0px;
+text-align: right;
+position: relative;
+}
+#side-menu-container ul li a{
+margin: 20px 20px 0px 0px;
+padding-top: 13px;
+font-size: 16px;
+padding-right: 10px;
+}
+#side-menu-container ul li ul li{
+text-align: right;
+width: 166px;
+height: 32px;
+margin: 1px 0px -18px 45px;
+}
+#side-menu-container a{
+color: #eaeaea;
+padding-top: 6px;
+display: block;
+}
+#side-menu-container ul li ul li a{
+font-size: 12px;
+padding-right: 25px;
+position: relative;
+top: -5px;
+}
+#side-menu-container ul li ul li:hover{
+margin-left:30px;
+}
+#content-container{
+width: 800px;
+position: relative;
+top: -225px;
+left: 200px;
+z-index: 1000;
+}
+#content{
+background: #eaeaea;
+min-height: 800px;
+padding: 15px;
+position: relative;
+}
+/*Inside Content - This is the white part of the page that doesn't change with a different color scheme */
+
+#search-form{
+position: absolute;
+right: 20px;
+}
+
+.objectives{
+background: #d4ddd8;
+border: 1px solid #aab1ad;
+width: 350px;
+min-height: 230px;
+padding: 10px;
+display: inline-block;
+position: absolute;
+}
+#objectives-today{
+/*top: -223px;*/
+}
+#objectives-yesterday{
+left: 415px;
+}
+.objectives ul{
+margin-top: 15px;
+}
+.objectives-container{
+height: 270px;
+}
+.styleswitch{
+cursor: pointer;
+}

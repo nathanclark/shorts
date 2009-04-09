@@ -1,0 +1,225 @@
+/*THEME DEFAULTS */
+/*These are the styled defaults that you will be able to use where ever you need in the site*/
+body{
+font-family: Trebuchet MS, Helvetica, Arial;
+}
+a.link{
+color: #0066CC;
+border-bottom: dotted 1px #0099FF;
+}
+a.link:hover{
+color: #FF9933;
+border-bottom: dashed 1px #FF6633;
+}
+h1{
+font-size: 36px;
+color: #25211b;
+}
+h2{
+font-size: 22px;
+color: #5e878d;
+}
+h3{
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 24px;
+font-weight: normal;
+}
+h4{
+font-size: 22px;
+font-weight: normal;
+color: #3a3124;
+}
+h5{
+}
+h6{
+}
+a{
+}
+a:hover{
+}
+.arial{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 70%;
+}
+.arial b{
+font-size: 115%;
+}
+input{
+}
+li.complete{
+list-style-image: url(images/complete.png);
+margin-left: 35px;
+color: #201d17;
+}
+li.incomplete{
+list-style-image: url(images/incomplete.png);
+margin-left: 35px;
+}
+
+/*ALERTS*/
+.alert{
+min-height: 45px;
+margin: 10px 0px 20px 0px;
+position: relative;
+}
+.alert p{
+display: inline;
+position: relative;
+top: 12px;
+}
+.alert p.main-text{
+margin-left: 50px;
+font-size: 18px;
+display: inline;
+}
+.alert p.sub-text{
+font-size: 12px;
+color: #383625;
+display: inline;
+}
+.yellow{
+background: #ffff9a url(images/caution.png) no-repeat 10px 10px;
+border: 1px solid #c3c376;
+}
+.blue{
+background: #bacddf url(images/message.png) no-repeat 10px 10px;
+border: 1px solid #82b2df;
+}
+.red{
+background: #ecb4ae url(images/error.png) no-repeat 10px 10px;
+border: 1px solid #c9867f;
+}
+.green{
+background: #b1e0a3 url(images/success.png) no-repeat 10px 10px;
+border: 1px solid #7ABD5E;
+}
+a.close{
+font-size: 11px;
+color: #772f21;
+position: absolute;
+top: 0px;
+right: 5px;
+display: none;
+}
+a.close:hover{
+text-decoration: underline;
+}
+/*General Sizes*/
+.small{
+width: 175px;
+}
+.medium{
+width: 250px;
+}
+.large, .half{
+width: 375px;
+}
+.full{
+width: 760px;;
+}
+
+/*FORM ELEMENT STYLING */
+input,textarea{
+height: 21px;
+padding: 5px 5px 3px 5px;
+font-size: 15px;
+color: #211e18;
+background: #eeeeee;
+border: 1px solid #bebebe;
+}
+input:hover,textarea:hover{
+background: #f6f6f6;
+border: 1px solid #c78851;
+}
+input:focus,textarea:focus{
+border: 1px solid #c78851;
+}
+
+.input-sub-text{
+font-size: 10px;
+color: #a0a0a0;
+display: block;
+}
+.error{
+color: #990000;
+font-size: 14px;
+}
+input.error{
+border: 1px dashed #990000;
+}
+label.error{
+margin-left: 5px;
+}
+textarea{
+height: 150px;
+width: 385px;
+font-size: 15px;
+color: #211e18;
+background: #eeeeee;
+border: 1px solid #bebebe;
+}
+pre.code{
+border: 1px dashed #bebebe;
+background: #eeeeee;
+padding: 5px 5px 3px 5px;
+}
+button{
+background: #9a8a70;
+border: 1px solid #776b57;
+height: 31px;
+padding: 0px 10px 0px 10px;
+margin-left: 10px;
+display: inline-block;
+outline: none;
+cursor: pointer;
+color: #eeeeee;
+font-size: 16px;
+}
+
+tbody, tr, td{
+border: solid 1px #c1c9c4;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+width: 750px;
+}
+tr.title-row{
+background: #687d77;
+color: #eaeaea;
+height: 25px;
+}
+td{
+padding-left: 10px;
+}
+tr{
+height: 25px;
+}
+.odd{
+background: #edf2df;
+}
+.even{
+background: #dadfcd;
+}
+td.table-no{
+width: 40px;
+}
+td.table-status{
+width: 275px;
+}
+td.table-customer{
+width: 450px;
+}
+td.table-total{
+width: 125px;
+}
+td.table-date{
+width: 225px;
+}
+td.table-move{
+width: 110px;
+}
+td.table-actions{
+width: 110px;
+}
+table img{
+cursor: pointer;
+}

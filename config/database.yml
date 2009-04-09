@@ -2,7 +2,7 @@
 
 development:
   adapter: mysql
-  database: <%= PROJECT_NAME %>_development
+  database: shorts_development
   username: root
   password: 
   host: localhost

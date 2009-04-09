@@ -1,0 +1,17 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: url(../images/bg.png) repeat-x;
+}
+#hd {
+	color: #FFFFFF;
+}
+#hd h1{
+	font-size: x-large;
+}
+#ft {
+	text-align: center;
+}
+
+#settings {
+	text-align: right;
+}

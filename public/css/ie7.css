@@ -1,0 +1,28 @@
+#side-menu-container ul li.side-main ul li{
+text-align: right;
+width: 166px;
+height: 32px;
+margin: 1px 0px -4px 45px;
+}
+#side-menu-container ul li ul li:hover{
+margin-left:30px;
+}
+#side-menu-container ul li.side-main a{
+position: relative;
+top: -20px;
+}
+#side-menu-container ul li.side-main ul li a{
+position: relative;
+top: -25px;
+}
+a.dp-choose-date{
+position: relative;
+top: -4px;
+}
+pre.code{
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;  
+}
