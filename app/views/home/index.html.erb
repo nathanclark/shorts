@@ -16,7 +16,7 @@
 	<% if !@sites.blank? %>
 	  <% for site in @sites %>
 	    <tr class="<%= cycle("even", "odd") -%>">
-	      <td class="table-no"><%= site.id %></td>
+	      <td class="table-no"><%= image_tag site.snapshots.last.photo(:tiny) %></td>
 	      <td class="table-status"><%= site.enabled %></td>
 	      <td class="table-customer"><%= site.name %></td>
 	      <td class="table-date"><%=h site.updated_at.strftime("%B %d, %Y")
