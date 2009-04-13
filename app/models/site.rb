@@ -14,4 +14,9 @@
 
 class Site < ActiveRecord::Base
   has_many :snapshots
+  
+  def last_changed
+    self.snapshots.last.updated_at
+  end
+  
 end
